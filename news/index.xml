@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Zhengxiong Luo</title>
+    <link>https://fouzhe.github.io/news/</link>
+    <description>Recent content in News on Zhengxiong Luo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fouzhe.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://fouzhe.github.io/news/4/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouzhe.github.io/news/4/</guid>
+      <description>The paper accepted to EMSOFT 2019 was nominated for Best Paper Award.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fouzhe.github.io/news/1/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouzhe.github.io/news/1/</guid>
+      <description>Started as a PhD student in Tsinghua University.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fouzhe.github.io/news/3/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouzhe.github.io/news/3/</guid>
+      <description>One paper got accepted to EMSOFT 2019.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fouzhe.github.io/news/2/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fouzhe.github.io/news/2/</guid>
+      <description>I received my BS degree from BUPT.</description>
+    </item>
+    
+  </channel>
+</rss>
