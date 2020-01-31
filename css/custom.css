@@ -1,0 +1,20 @@
+/* Custom styles for Zhengxiong Luo's website */
+
+/* Adjust sidebar width - make it narrower */
+.primary {
+	-webkit-flex: 1 0 68%;
+	-ms-flex: 1 0 68%;
+	flex: 1 0 68%;
+}
+
+.sidebar {
+	-webkit-flex: 1 0 30.5%;
+	-ms-flex: 1 0 30.5%;
+	flex: 1 0 30.5%;
+}
+
+/* Ensure Full List link uses the same font family as the heading */
+h2#publications a {
+	font-family: inherit;
+}
+
