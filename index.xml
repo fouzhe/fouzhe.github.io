@@ -53,8 +53,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://fouzhe.github.io/content/</guid>
-      <description>About Me I am a PhD student in the School of Software, Tsinghua University, advised by Prof Yu Jiang. I received my BS degree from School of Computer Science, Beijing University of Posts and Telecommunications in 2019.6.
-Research My research is focussed on automated vulnerability detection and program analysis of network protocol implementations via techniques like fuzzing, where I investigate practical topics such as efficiency, scalability, and reliability of automated techniques via theoretical and empirical analysis.</description>
+      <description>About I am a PhD student in the School of Software, Tsinghua University, advised by Prof Yu Jiang. I received my BS degree from School of Computer Science, Beijing University of Posts and Telecommunications in 2019.6.
+Research My research is focused on automated vulnerability detection and program analysis of network protocol implementations via techniques like fuzzing, where I investigate practical topics such as efficiency, scalability, and reliability of automated techniques via theoretical and empirical analysis.</description>
     </item>
     
   </channel>

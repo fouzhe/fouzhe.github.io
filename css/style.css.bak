@@ -653,7 +653,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .content a,
 .warning a {
 	font-weight: 700;
-	color: #2D8BE3;
+	color: #e22d30;
 }
 
 .content a:hover,
