@@ -1,0 +1,35 @@
+/* Custom styles for Zhengxiong Luo's website */
+
+/* Adjust sidebar width - make it narrower */
+.primary {
+	-webkit-flex: 1 0 68%;
+	-ms-flex: 1 0 68%;
+	flex: 1 0 68%;
+}
+
+.sidebar {
+	-webkit-flex: 1 0 30.5%;
+	-ms-flex: 1 0 30.5%;
+	flex: 1 0 30.5%;
+}
+
+/* Ensure Full List link uses the same font family as the heading */
+h2#publications a {
+	font-family: inherit;
+}
+
+/* Compact spacing for lists */
+.content li {
+	margin-bottom: 3px;
+}
+
+.content ul ul {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.content ul ul li {
+	margin-bottom: 1px;
+	line-height: 1.4;
+}
+
