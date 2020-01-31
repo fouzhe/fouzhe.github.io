@@ -15,7 +15,10 @@
 	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Zhengxiong Luo">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
 	<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="/favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 		
 <script type="application/javascript">
 var doNotTrack = false;
@@ -44,7 +47,7 @@ if (!doNotTrack) {
 		<div class="logo" role="banner">
 			<a class="logo__link" href="/" title="Zhengxiong Luo" rel="home">
 				<div class="logo__title">Zhengxiong Luo</div>
-				<div class="logo__tagline">fouzhe&#39;s homepage</div>
+				<!-- <div class="logo__tagline">fouzhe&#39;s homepage</div> -->
 			</a>
 		</div>
 		
@@ -54,8 +57,14 @@ if (!doNotTrack) {
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			
-			<a class="menu__link">Homepage</a>
+			<a class="menu__link" href="/">
+				<span class="menu__text">Homepage</span>
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/publications/">
+				<span class="menu__text">Publications</span>
+			</a>
 		</li>
 	</ul>
 </nav>
@@ -68,22 +77,140 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<div class="content post__content clearfix">
-			<h2 id="about-me">About Me</h2>
-<p>I am a <strong>PhD student</strong> in the School of Software, <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>, advised by Prof <a href="https://sites.google.com/site/jiangyu198964/home">Yu Jiang</a>. I received my <strong>BS degree</strong> from School of Computer Science, <a href="https://www.bupt.edu.cn">Beijing University of Posts and Telecommunications</a> in 2019.6.</p>
+			<h2 id="about-me">About</h2>
+<p>I'm a research fellow at National University of Singapore (NUS), hosted by <a href="https://abhikrc.com">Prof Abhik Roychoudhury</a>. Before that, I	received my doctoral degree from Tsinghua University, advised by <a href="https://sites.google.com/site/jiangyu198964/home">Prof Yu Jiang</a>, and BS degree from Beijing University of Posts and Telecommunications (BUPT).</p> 
+<!-- As I near the completion of my PhD, I am actively seeking tenure-track positions in academia. On this website, you can find more information about my education, skills, and experience. If you are interested in collaborating on research or have any other inquiries, please don't hesitate to contact me. Thank you for visiting! -->
 <h2 id="research">Research</h2>
-<p>My research is focussed on automated vulnerability detection and program analysis of network protocol implementations via techniques like fuzzing, where I investigate practical topics such as efficiency, scalability, and reliability of automated techniques via theoretical and empirical analysis.</p>
-<h2 id="publications">Publications</h2>
+<p>My research focuses on ensuring the security and privacy of real-world systems (e.g., network protocols, IoT platforms) through program analysis, software testing, and reverse engineering techniques. Currently, I am exploring how LLMs can revolutionize these methods with superior reasoning capabilities and cross-domain scalability.</p>
+<!-- My works have discovered over 90 critical zero-days in widely-used open-source projects, with 55 CVEs assigned -->
+	<!-- , where I investigate practical topics such as efficiency, scalability, and reliability of automated techniques via theoretical and empirical analysis.</p> -->
+
+<h2 id="publications">Selected Publications <a href="/publications/" style="font-size: 0.6em; font-weight: normal; color: #2D30E3;">[Full List]</a></h2>
 <ul>
-<li><strong>Zhengxiong Luo</strong>, Feilong Zuo, Yu Jiang, Jian Gao, Xun Jiao, and Jiaguang Sun. <a href="https://dl.acm.org/doi/10.1145/3358227">Polar: Function Code Aware Fuzz Testing of ICS Protocol</a>. ACM SIGBED International Conference on Embedded Software (<strong>EMSOFT, Best Paper Nominee</strong>) 2019. [<a href="/publications/paper/polar2019.pdf">paper</a>] [<a href="https://github.com/fouzhe/Polar-Fuzz">code</a>] [<a href="https://github.com/fouzhe/fouzhe.github.io/blob/master/publications/bibtex/polar2019">bib</a>]</li>
-<li><strong>Zhengxiong Luo</strong>, Feilong Zuo, Yuheng Shen, Xun Jiao, Wanli Chang, and Yu Jiang. <a href="https://ieeexplore.ieee.org/document/9218603">ICS Protocol Fuzzing: Coverage Guided Packet Crack and Generation</a>. ACM SIGDA Design Automation Conference (DAC) 2020. [<a href="/publications/paper/dac2020.pdf">paper</a>] [<a href="https://github.com/fouzhe/fouzhe.github.io/blob/master/publications/bibtex/dac2020">bib</a>]</li>
-<li>Feilong Zuo, <strong>Zhengxiong Luo<sup>*</sup></strong>, Junze Yu and Yu Jiang. <a href="https://ieeexplore.ieee.org/document/9586321">PAVFuzz: State-Sensitive Fuzz Testing of Protocols in Autonomous Vehicles</a>. ACM SIGDA Design Automation Conference (DAC) 2021. </li>
+<!-- (* indicates equal contribution, # indicates corresponding author) -->
+<li>
+	<strong><span style="color:#2D30E3;">[S&P'26]</span> Agentic Concolic Execution.</strong> <a href="/publications/paper/SP26-ConcoLLMic.pdf">[paper]</a> <a href="https://concollmic.github.io">[code]</a> <br />
+	<strong>Zhengxiong Luo</strong>, Huan Zhao, Dylan Wolff, Cristian Cadar, Abhik Roychoudhury.<br />
+	Accepted in <i> IEEE Symposium on Security and Privacy (S&P) 2026. </i>
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[TSE'25]</span> Enhancing Protocol Fuzzing via Diverse Seed Corpus Generation.</strong> <a href="/publications/paper/TSE25-PSG.pdf">[paper]</a> <br />
+	<strong>Zhengxiong Luo</strong>, Qingpeng Du, Yujue Wang, Abhik Roychoudhury, Yu Jiang. <br />
+	Accepted in <i> IEEE Transactions on Software Engineering (TSE) 2025. </i>
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[NDSS'24]</span> DynPRE: Protocol Reverse Engineering via Dynamic Inference.</strong> <a href="/publications/paper/NDSS24-DynPRE.pdf">[paper]</a><a href="/publications/paper/NDSS24-DynPRE-slides.pdf">[slides]</a> <br />
+	<strong>Zhengxiong Luo</strong>, Kai Liang, Yanyang Zhao, Feifan Wu, Junze Yu, Heyuan Shi, and Yu Jiang. <br />
+	Accepted in <i> Network and Distributed System Security (NDSS) 2024. </i>
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[EMSOFT/TCAD'24]</span> Parallel Fuzzing of IoT Messaging Protocols through Collaborative Packet Generation. </strong> <a href="/publications/paper/emsoft24.pdf">[paper]</a>
+	<br />
+	<strong>Zhengxiong Luo</strong>, Junze Yu, Qingpeng Du, Yanyang Zhao, Feifan Wu, Heyuan Shi, Wanli Chang, Yu Jiang. <br />
+	Accepted in <i> International Conference on Embedded Software (EMSOFT) 2024</i>, and published in <i> IEEE Trans. Comput. Aided Des. Integr. Circuits Syst (TCAD). </i> 
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[SEC'23]</span> Bleem: Packet Sequence Oriented Fuzzing for Protocol Implementations.</strong> <a href="/publications/paper/sec23.pdf">[paper]</a> <a href="/publications/paper/bleem_slides.pdf">[slides]</a> <br />
+	<strong>Zhengxiong Luo</strong>, Junze Yu, Feilong Zuo, Jianzhong Liu, Yu Jiang, Ting Chen, Abhik Roychoudhury, and Jiaguang Sun. <br />
+	Accepted in <i> USENIX Security Symposium 2023. </i>
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[DAC'20]</span> ICS Protocol Fuzzing: Coverage Guided Packet Crack and Generation. </strong> <a href="/publications/paper/dac2020.pdf">[paper]</a> <a href="/publications/paper/Peach_star_slides.pdf">[slides]</a>
+	<!-- <a href="/publications/bibtex/dac2021.html">[bib]</a> -->
+	<br />
+	<strong>Zhengxiong Luo</strong>, Feilong Zuo, Yuheng Shen, Xun Jiao, Wanli Chang, and Yu Jiang. <br />
+	Accepted in <i>  Design Automation Conference (DAC) 2020. </i>
+	<!-- [<a href="/publications/bibtex/dac2020.html">bib</a>] -->
+</li>
+<li>
+	<strong><span style="color:#2D30E3;">[EMSOFT/TECS'19]</span> Polar: Function Code Aware Fuzz Testing of ICS Protocol. </strong> <a href="/publications/paper/polar2019.pdf">[paper]</a> <a href="/publications/paper/polar-slides.pdf">[slides]</a> <a href="https://github.com/fouzhe/Polar-Fuzz">[code]</a>
+	<br />
+	<strong>Zhengxiong Luo</strong>, Feilong Zuo, Yu Jiang, Jian Gao, Xun Jiao, and Jiaguang Sun. <br />
+	Accepted in <i> International Conference on Embedded Software (EMSOFT) 2019</i> (<strong><span style="color:#BD2628;">Best Paper Nominee</span></strong>), and published in <i> ACM Trans. Embed. Comput. Syst. (TECS). </i> 
+	<!-- [<a href="/publications/bibtex/polar2019.html">bib</a>] -->
+</li>
+
+
+<!-- <li>
+	<strong><span style="color:#2D30E3;">[DAC'21]</span> PAVFuzz: State-Sensitive Fuzz Testing of Protocols in Autonomous Vehicles. </strong> <a href="/publications/paper/dac2021.pdf">[paper]</a> 
+	<br />
+	Feilong Zuo, <strong>Zhengxiong Luo</strong>, Junze Yu, Yu Jiang.  <br /> 
+	Accepted in <i> Design Automation Conference 2021. </i>
+</li> -->
+
+<!-- <li>
+	<strong>Zhengxiong Luo</strong>, Feilong Zuo, Yu Jiang, Jian Gao, Xun Jiao, and Jiaguang Sun. <a href="https://dl.acm.org/doi/10.1145/3358227">Polar: Function Code Aware Fuzz Testing of ICS Protocol</a>. ACM SIGBED International Conference on Embedded Software (EMSOFT, <strong>Best Paper Nominee</strong>) 2019. [<a href="/publications/paper/polar2019.pdf">paper</a>] [<a href="https://github.com/fouzhe/Polar-Fuzz">code</a>] [<a href="/publications/bibtex/polar2019.html">bib</a>]
+</li> -->
 </ul>
-<h2 id="awards--honors">Awards &amp; Honors</h2>
+<!-- <h2 id="awards--honors">Awards &amp; Honors</h2> -->
+<h2 id="awards--honors">Selected Awards</h2>
 <ul>
-<li>National Scholarship, 2020</li>
-<li>Tsinghua Software Scholarship, 2020</li>
-<li><a href="https://esweek.org/archive_files/2019/2019_ESWeek_Program_Final_No%2520Crops.pdf">Best Paper Nominee in EMSOFT 2019 (3 out of 105 submissions)</a></li>
-<li>Silver Medal, The ACM-ICPC Asia Regional Contest Nanning Site, 2017</li>
+<li>
+	<a href="https://sigbed.org/2024/01/22/frank-anger-memorial-award-2023/" style="color: black;"><strong>ACM SIGBED-SIGSOFT Frank Anger Memorial Award, 2024</strong></a>
+</li>
+<li>
+	<a href="https://mp.weixin.qq.com/s/1h6XCOzuw_0DeVb1jCti6w" style="color: black;"><strong>ACM China Doctoral Dissertation Award Nomination, 2024 (Top 5 in China)</strong></a>
+</li>
+<li>
+	<a href="https://mp.weixin.qq.com/s/q4B6TeLu6SPu1teXTMJDGA" style="color: black;"><strong>ACM SIGBED China Doctoral Dissertation Award, 2024</strong></a>
+</li>
+<li>
+	<a href="https://mp.weixin.qq.com/s/_ak4tL8ibKBGG0lJZzO9LA" style="color: black;"><strong>CCF Embedded System Outstanding Doctoral Dissertation Award, 2024</strong></a>
+</li>
+<li>
+	
+	<a href="https://esweek.org/wp-content/uploads/2022/10/ESWEEK_2022_booklet_final.pdf" style="color: black;"><strong>EMSOFT Best Paper Nominee, 2022 (3 out of 171 submissions)</strong></a>
+</li>
+<li>
+	<!-- <strong>EMSOFT Best Paper Nominee, 2019 (3 out of 105 submissions)</strong> -->
+	<a href="https://esweek.org/archive_files/2019/2019_ESWeek_Program_Final_No%2520Crops.pdf" style="color: black;"><strong>Best Paper Nominee in EMSOFT 2019 (3 out of 105 submissions)</strong></a>
+</li>
+<li>
+	Tsinghua Software Scholarship, 2021
+</li>
+<li>
+	National Scholarship, 2020
+</li>
+<li>
+	Silver Medal, The ACM-ICPC Asia Regional Contest Nanning Site, 2017
+</li>
+</ul>
+
+<h2 id="awards--honors">Academic Services</h2>
+<ul>
+<li>
+	<strong>Program Committee Member for ISSTA'26, ICST'26</strong></a>
+</li>
+
+<li>
+	<strong>Executive Committee Member for CCF Embedded Systems (CCF TCEBS)</strong></a>
+</li>
+
+<li>
+	<strong>Program Committee Member for FUZZING'25, ISSTA'25 Tool, Eurosys'25 Shadow</strong></a>
+</li>
+
+<li>
+	<strong>Reviewer for ACM Transactions on Software Engineering and Methodology (TOSEM), 2024-2026</strong></a>
+</li>
+
+<li>
+	<strong>Reviewer for IEEE Transactions on Information Forensics and Security (TIFS), 2025</strong></a>
+</li>
+
+<li>
+	<strong>Reviewer for ACM Computing Surveys, 2023-2024</strong></a>
+</li>
+
+<li>
+	<strong>Reviewer for IEEE Transactions on Dependable and Secure Computing (TDSC), 2023</strong></a>
+</li>
+
+<!-- <li>
+	<strong>Reviewer for Journal of Software: Evolution and Process (JSME), 2022</strong></a>
+</li> -->
+
+
 </ul>
 
 		</div>
@@ -101,11 +228,11 @@ if (!doNotTrack) {
 		</div>
 		<div class="profile__name">
 			<div style="font-size: 1.25rem">
-				<b>Zhengxiong Luo</b> 
+				<b>Zhengxiong Luo (罗正雄)</b> 
 			</div>
 			<div>
 				
-				PhD Candidadte @ Tsinghua University
+				Research Fellow @ NUS
 			</div>
 		</div>
 	</div>
@@ -115,17 +242,45 @@ if (!doNotTrack) {
 	<h4 class="widget__title">News</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-				<li class="widget__item"><b>[02/2021]</b> One paper got accepted by DAC 2021.
-</li>
+			<li class="widget__item"><b>[12/2025]</b> Invited to serve as the PC member for <a href="https://conf.researchr.org/track/icst-2026/icst-2026-research">ICST'26</a>. Please consider submitting your work.</li>
 
-				<li class="widget__item"><b>[02/2020]</b> One paper got accepted by DAC 2020.
-</li>
+			<li class="widget__item"><b>[11/2025]</b> TransRE got accepted by FSE'26.</li>
 
-				<li class="widget__item"><b>[10/2019]</b> The paper accepted to EMSOFT 2019 was nominated for Best Paper Award.
-</li>
-				
-				<li class="widget__item"><b>[07/2019]</b> One paper got accepted by EMSOFT 2019.
-</li>
+			<li class="widget__item"><b>[09/2025]</b> Invited to serve as the PC member for <a href="https://conf.researchr.org/home/issta-2026">ISSTA'26</a>. Please consider submitting your work.</li>
+
+			<li class="widget__item"><b>[09/2025]</b> ConcoLLMic got accepted by SP'26.</li>
+
+			<li class="widget__item"><b>[08/2025]</b> PSG got accepted by TSE'25.</li>
+
+			<li class="widget__item"><b>[12/2024]</b> Honored with ACM  China Doctoral Dissertation Award Nomination (Top 5 in China).</li>
+
+			<li class="widget__item"><b>[08/2024]</b> Honored with CCF Embedded System Outstanding Doctoral Dissertation Award.</li>
+
+			<li class="widget__item"><b>[08/2024]</b> Honored with ACM SIGBED China Doctoral Dissertation Award.</li>
+
+			<li class="widget__item"><b>[07/2024]</b> MPFuzz got accepted by EMSOFT'24.</li>
+
+			<li class="widget__item"><b>[07/2024]</b> Logos got accepted by ISSTA'24.</li>
+
+			<li class="widget__item"><b>[05/2024]</b> Honored with ACM SIGBED-SIGSOFT Frank Anger Memorial Award.</li>
+
+			<li class="widget__item"><b>[02/2024]</b> SPFuzz got accepted by DAC'24.</li>
+
+			<!-- <li class="widget__item"><b>[10/2023]</b> DynPRE got accepted by NDSS'24.</li>
+
+			<li class="widget__item"><b>[12/2022]</b> Bleem got accepted by USENIX SEC'23.</li>
+
+			<li class="widget__item"><b>[09/2022]</b> Charon was nominated for Best Paper Award.</li>
+
+			<li class="widget__item"><b>[07/2022]</b> Charon got accepted by EMSOFT'22.</li>
+
+			<li class="widget__item"><b>[02/2021]</b> PAVFuzz got accepted by DAC'21.</li>
+
+			<li class="widget__item"><b>[02/2020]</b> Peach<sup>*</sup> got accepted by DAC'20.</li>
+
+			<li class="widget__item"><b>[10/2019]</b> Polar was nominated for Best Paper Award.</li>
+			
+			<li class="widget__item"><b>[07/2019]</b> Polar got accepted by EMSOFT'19.</li> -->
 		</ul>
 	</div>
 </div>
@@ -133,9 +288,9 @@ if (!doNotTrack) {
 	<h4 class="widget-social__title widget__title">Contact</h4>
 	<div class="widget-social__content widget__content">
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Email" href="mailto:luozx19@mails.tsinghua.edu.cn">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:fouzhe15@gmail.com">
 				<svg class="widget-social__link-icon icon-mail" viewBox="0 0 416 288" width="24" height="24" fill="#fff"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
-				<span>luozx19 at mails.tsinghua.edu.cn</span>
+				<span>fouzhe15 at gmail dot com</span>
 			</a>
 		</div>
 		<div class="widget-social__item widget__item">
@@ -153,11 +308,25 @@ if (!doNotTrack) {
 			</a>
 		</div>
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/%e6%ad%a3%e9%9b%84-%e7%bd%97-047451171" target="_blank">
+			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/zhengxiong-luo-801306313/" target="_blank">
 				<svg class="widget-social__link-icon icon-linkedin" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
 				<span>LinkedIn</span>
 			</a>
 		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://x.com/zhengxiong_luo" target="_blank">
+				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 24 24" width="24" height="24" fill="#fff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<!-- <div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="DBLP" rel="noopener noreferrer" href="https://dblp.uni-trier.de/pid/253/1632-2.html" target="_blank">
+				<svg class="widget-social__link-icon icon-dblp" viewBox="0 0 32 32" width="24" height="24" fill="#fff">
+					<path d="M16 0C7.164 0 0 7.164 0 16c0 8.836 7.164 16 16 16s16-7.164 16-16c0-8.836-7.164-16-16-16zm-1.25 24.5v-6.875h-2.125v-3.25h2.125V9.75h3.25v4.625H21v3.25h-2.875v6.875h-3.25z"/>
+				</svg>
+				<span>DBLP</span>
+			</a>
+		</div> -->
 	</div>
 </div>
 </aside>
@@ -166,7 +335,7 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2015-2020 Zhengxiong Luo.
+			&copy; 2015-2024 Zhengxiong Luo.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
