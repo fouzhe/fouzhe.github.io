@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications - Zhengxiong Luo</title>
+    <link>https://fouzhe.github.io/publications/</link>
+    <description>Publications by Zhengxiong Luo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fouzhe.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agentic Concolic Execution</title>
+      <link>https://fouzhe.github.io/publications/paper/SP26-ConcoLLMic.pdf</link>
+      <pubDate>Mon, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://fouzhe.github.io/publications/paper/SP26-ConcoLLMic.pdf</guid>
+      <description>Zhengxiong Luo, Huan Zhao, Dylan Wolff, Cristian Cadar, Abhik Roychoudhury. Accepted in IEEE Symposium on Security and Privacy (S&P) 2026.</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Protocol Fuzzing via Diverse Seed Corpus Generation</title>
+      <link>https://fouzhe.github.io/publications/paper/TSE25-PSG.pdf</link>
+      <pubDate>Mon, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://fouzhe.github.io/publications/paper/TSE25-PSG.pdf</guid>
+      <description>Zhengxiong Luo, Qingpeng Du, Yujue Wang, Abhik Roychoudhury, Yu Jiang. Accepted in IEEE Transactions on Software Engineering (TSE) 2025.</description>
+    </item>
+    
+    <item>
+      <title>DynPRE: Protocol Reverse Engineering via Dynamic Inference</title>
+      <link>https://fouzhe.github.io/publications/paper/NDSS24-DynPRE.pdf</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://fouzhe.github.io/publications/paper/NDSS24-DynPRE.pdf</guid>
+      <description>Zhengxiong Luo, Kai Liang, Yanyang Zhao, Feifan Wu, Junze Yu, Heyuan Shi, and Yu Jiang. Accepted in Network and Distributed System Security (NDSS) 2024.</description>
+    </item>
+    
+  </channel>
+</rss>

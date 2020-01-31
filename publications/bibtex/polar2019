@@ -1,8 +1,0 @@
-@article{Luo2019PolarFC,
-  title={Polar: Function Code Aware Fuzz Testing of ICS Protocol},
-  author={Zhengxiong Luo and Feilong Zuo and Yu Jiang and Jian Gao and Xun Jiao and Jia-Guang Sun},
-  journal={ACM Trans. Embedded Comput. Syst.},
-  year={2019},
-  volume={18},
-  pages={93:1-93:22}
-}
